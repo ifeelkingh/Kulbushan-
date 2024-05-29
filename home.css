@@ -1,0 +1,96 @@
+
+}
+html.body{
+  height: 100%;
+  width: 100%;
+  margin: 20pxright;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: yellow;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 40pxright;
+  
+}
+img{
+  width: 50px;
+  height: 50px;
+  
+}
+.left-nav{
+  margin-left: 40px;
+}
+li{
+  list-style-type: none;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  padding: 20px;
+  
+}
+a:hover{
+  color: white;
+  background-color: red;
+}
+.home{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+.heading{
+  width: 80%;
+  color: solid black;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+.right-nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40pxright;
+}
+.button{
+  background-color: yellow;
+  color: white!;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+h1{
+  color: blue;
+  text-align: center;
+  background-color: yellow;
+  border: 10px solid;
+}
+
+.image{
+  background: url("tommy-shelby-4k-intimidate-28n7wfk1jeyscjx7.jpg");
+  width: 800px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  height: 800px;
+  padding-block-start: 30px;
+}
